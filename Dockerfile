@@ -23,6 +23,7 @@ RUN echo -e "https://dl-cdn.alpinelinux.org/alpine/edge/testing\nhttps://dl-cdn.
 	wget \
 	rsync \
  	py3-pycups \
+  	epson-inkjet-printer-escpr \
 	&& rm -rf /var/cache/apk/*
 
 # This will use port 631
